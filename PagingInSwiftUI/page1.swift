@@ -13,6 +13,7 @@ struct page1: View {
         ZStack {
             Color.yellow
             Text("Welcome! This is Page 1")
+                .font(.largeTitle)
         }.edgesIgnoringSafeArea(.all)
     }
 }
