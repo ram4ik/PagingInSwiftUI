@@ -7,10 +7,19 @@
 //
 
 import SwiftUI
+import Pages
 
 struct ContentView: View {
+    @State var index: Int = 0
+    
     var body: some View {
-        Text("Hello, World!")
+        Pages(
+            currentPage: $index
+        ) {
+            page1()
+            page2()
+            page3() 
+        }
     }
 }
 

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,10 @@
 		1D88000324786337005EBB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D88000224786337005EBB71 /* Assets.xcassets */; };
 		1D88000624786337005EBB71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D88000524786337005EBB71 /* Preview Assets.xcassets */; };
 		1D88000924786337005EBB71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D88000724786337005EBB71 /* LaunchScreen.storyboard */; };
+		1D880012247863B3005EBB71 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 1D880011247863B3005EBB71 /* Pages */; };
+		1D880014247866E9005EBB71 /* page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D880013247866E9005EBB71 /* page1.swift */; };
+		1D880016247866F1005EBB71 /* page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D880015247866F1005EBB71 /* page2.swift */; };
+		1D880018247866F7005EBB71 /* page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D880017247866F7005EBB71 /* page3.swift */; };
 		1D88FFFD24786334005EBB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D88FFFC24786334005EBB71 /* AppDelegate.swift */; };
 		1D88FFFF24786334005EBB71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D88FFFE24786334005EBB71 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +25,9 @@
 		1D88000524786337005EBB71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D88000824786337005EBB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D88000A24786337005EBB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D880013247866E9005EBB71 /* page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page1.swift; sourceTree = "<group>"; };
+		1D880015247866F1005EBB71 /* page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page2.swift; sourceTree = "<group>"; };
+		1D880017247866F7005EBB71 /* page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page3.swift; sourceTree = "<group>"; };
 		1D88FFF924786333005EBB71 /* PagingInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D88FFFC24786334005EBB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D88FFFE24786334005EBB71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D880012247863B3005EBB71 /* Pages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +79,9 @@
 				1D88000724786337005EBB71 /* LaunchScreen.storyboard */,
 				1D88000A24786337005EBB71 /* Info.plist */,
 				1D88000424786337005EBB71 /* Preview Content */,
+				1D880013247866E9005EBB71 /* page1.swift */,
+				1D880015247866F1005EBB71 /* page2.swift */,
+				1D880017247866F7005EBB71 /* page3.swift */,
 			);
 			path = PagingInSwiftUI;
 			sourceTree = "<group>";
@@ -91,6 +102,9 @@
 			dependencies = (
 			);
 			name = PagingInSwiftUI;
+			packageProductDependencies = (
+				1D880011247863B3005EBB71 /* Pages */,
+			);
 			productName = PagingInSwiftUI;
 			productReference = 1D88FFF924786333005EBB71 /* PagingInSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +133,9 @@
 				Base,
 			);
 			mainGroup = 1D88FFF024786333005EBB71;
+			packageReferences = (
+				1D880010247863B3005EBB71 /* XCRemoteSwiftPackageReference "Pages" */,
+			);
 			productRefGroup = 1D88FFFA24786333005EBB71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D880014247866E9005EBB71 /* page1.swift in Sources */,
 				1D88FFFD24786334005EBB71 /* AppDelegate.swift in Sources */,
+				1D880018247866F7005EBB71 /* page3.swift in Sources */,
 				1D88FFFF24786334005EBB71 /* SceneDelegate.swift in Sources */,
+				1D880016247866F1005EBB71 /* page2.swift in Sources */,
 				1D88000124786334005EBB71 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +362,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D880010247863B3005EBB71 /* XCRemoteSwiftPackageReference "Pages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nachonavarro/Pages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D880011247863B3005EBB71 /* Pages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D880010247863B3005EBB71 /* XCRemoteSwiftPackageReference "Pages" */;
+			productName = Pages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D88FFF124786333005EBB71 /* Project object */;
 }
